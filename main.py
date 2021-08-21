@@ -17,8 +17,8 @@ dead = False
 BORDER = '🔥'
 BODY = '😈'
 HEAD = '😈'
-SPACE = '☠️ '
-APPLE = '😱'
+SPACE = '💀'
+APPLE = '😓'
 
 # initial snake position
 snake = deque([[6, 5], [6, 4], [6, 3]])
@@ -29,7 +29,7 @@ score = 0
 # initial speed
 speed = 0.1
 # max speed
-MAX_SPEED = 6
+MAX_SPEED = 10
 
 # N1 and N2 represents the snake's movement frequency.
 # The snake will only move N1 out of N2 turns.
@@ -192,6 +192,6 @@ with term.cbreak(), term.hidden_cursor():
     print(term.clear_eos, end='')
 
 if dead:
-  print('you were eaten by the Demons!' + term.clear_eos)
+  print('you were eaten by the Demons!👻' + term.clear_eos)
 else:
   print('woah you won!! how did you do it?!' + term.clear_eos)
