@@ -17,7 +17,7 @@ dead = False
 BORDER = '🔥'
 BODY = '😈'
 HEAD = '😈'
-SPACE = ' '
+SPACE = '☠️ '
 APPLE = '😱'
 
 # initial snake position
